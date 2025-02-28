@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, 'roboto';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #CBC3E3;
+    height: 100vh;
+    overflow: auto;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    background: white;
+    border-radius: 10px;
+    height: 30vw;
+}
+
+.center h2{
+    text-align: center;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid silver;
+    border-top: 15px solid #820298;
+    width: 100%;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 40px 0;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+select{
+    position: relative;
+}
+
+option:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+}
+
+button{
+    transform: translate(900%, 200%);
+    border-radius: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+button:hover{
+    background: #CF9FFF;
+    color: white;
+    transition: .5s;
+}
+
+
+input[type="Submit"]{
+    position: absolute;
+    border-radius: 50px;
+}
+
+input[type="Submit"]:hover{
+    background: #820298;
+    color: #e9f4fb;
+    transition: .5s;
+    font-size: 20px;
+}
+
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
